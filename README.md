@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+# Quiz Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern and interactive quiz platform where users can attempt quizzes, get instant feedback, and track their progress. Built with **React.js**, **Tailwind CSS**, and **IndexedDB** for local storage.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Quiz Creation & Management**:
+  - Display a list of questions in a quiz format.
+  - Support for both **multiple-choice** and **integer-type** questions.
+  - Allow multiple attempts.
 
-### `npm start`
+- **User Interaction**:
+  - Users can select answers and get **instant feedback**.
+  - Timer-based quizzes (e.g., 30 seconds per question).
+  - Automatic submission when the timer runs out.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Progress Tracking**:
+  - Show a **scoreboard** at the end of each quiz.
+  - Save quiz history using **IndexedDB**.
+  - Clear quiz history with a **"Clear History"** button.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Error Handling**:
+  - Validate user input for integer-type questions.
+  - Display error messages for invalid inputs.
 
-### `npm test`
+- **Responsive Design**:
+  - Card-like UI.
+  - Fully responsive and works on all screen sizes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+- **Frontend**: React.js, Tailwind CSS
+- **Local Storage**: IndexedDB
+- **Deployment**: Vercel/Netlify
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## How to Run the App Locally
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Follow these steps to run the app on your local machine:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/quiz-platform.git
+   cd quiz-platform
 
-### `npm run eject`
+2. **Install Dependencies**:
+   ```bash
+   npm install
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+3. **Start the Development Server**:
+   ```bash
+   npm start
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. **Open the App**:
+  - The app will automatically open in your default browser at http://localhost:3000.
+  - If it doesn't, manually navigate to the URL.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. **Test the Quiz**:
+  - Attempt the quiz questions.
+  - Check your score and review incorrect answers at the end.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Deployed App
+The app is deployed on Vercel. You can access it here:
+👉 <a href="https://quiziiee.vercel.app/">Live Demo</a>
 
-## Learn More
+## Contributing
+Contributions are welcome! If you'd like to contribute, please follow these steps:
+-Fork the repository.
+-Create a new branch (git checkout -b feature/your-feature-name).
+-Commit your changes (git commit -m 'Add some feature').
+-Push to the branch (git push origin feature/your-feature-name).
+-Open a pull request.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<hr>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Made with ❤️ by ADITI.

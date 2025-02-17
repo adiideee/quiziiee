@@ -1,4 +1,4 @@
-# Quiz Platform
+# Quiziiee
 
 A modern and interactive quiz platform where users can attempt quizzes, get instant feedback, and track their progress. Built with **React.js**, **Tailwind CSS**, and **IndexedDB** for local storage.
 
@@ -64,11 +64,11 @@ The app is deployed on Vercel. You can access it here:
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute, please follow these steps:
--Fork the repository.
--Create a new branch (git checkout -b feature/your-feature-name).
--Commit your changes (git commit -m 'Add some feature').
--Push to the branch (git push origin feature/your-feature-name).
--Open a pull request.
+ -Fork the repository.
+ -Create a new branch (git checkout -b feature/your-feature-name).
+ -Commit your changes (git commit -m 'Add some feature').
+ -Push to the branch (git push origin feature/your-feature-name).
+ -Open a pull request.
 
 <hr>
 
